@@ -15,3 +15,10 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         data = data.decode()
         data = int(data)
 """
+def processImage():
+
+def processDistance():
+
+def processInputVoiceCommand():
+
+def processOutputVoiceCommand():
