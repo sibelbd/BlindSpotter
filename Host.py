@@ -16,6 +16,21 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         data = int(data)
 """
 
+def __init__():
+    #main method starts new thread for automatic distance alerting
+    #starts other thread waiting for vocal commands, initiated by keyword or button input
+
+def distanceChecking():
+    #do while on == true, check distance
+    #f distance greater than some distance, then don't sent alert
+    #if distance less than some distance send alert
+    #alert uses text to speech of #warning, object ahead within ___ distance of you
+
+def waitForCommand():
+    #connect button to this method
+    #method launches listing for audio method
+
+
 def processDistance(distance):
     #calls and returns distance variable
 
